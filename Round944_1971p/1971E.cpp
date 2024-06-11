@@ -14,6 +14,7 @@ void sol() {
 	}
 	for(int i=1; i<=k; i++) {
 		cin >> B[i];
+
 	}
 	while(q--) {
 		int d;
