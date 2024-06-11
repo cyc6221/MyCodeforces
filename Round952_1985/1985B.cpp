@@ -4,10 +4,10 @@ using ll = long long;
 using unll = unsigned long long;
 
 void sol() {
-	string a, b;
-	cin >> a >> b;
-	swap(a[0], b[0]);
-	cout << a << ' ' << b << endl;
+	int n;
+	cin >> n;
+	if(n == 3) cout << "3\n";
+	else cout << 2 << endl;
 }
 
 int main() {
