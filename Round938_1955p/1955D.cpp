@@ -41,7 +41,7 @@ void sol() {
             if(ump[a[i]] >= 0) check--;
         }
 
-        if(m-check >= k) res++;
+        if(m-check >= k) res++; 
     }
     cout << res << endl;
 }
