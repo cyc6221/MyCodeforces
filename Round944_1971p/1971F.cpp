@@ -4,10 +4,6 @@ using ll = long long;
 using unll = unsigned long long;
 
 void sol() {
-    int x, y;
-    cin >> x >> y;
-    if(x < y) cout << x << ' ' << y << endl;
-    else cout << y << ' ' << x << endl;
 }
 
 int main() {
