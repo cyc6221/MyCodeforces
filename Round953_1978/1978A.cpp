@@ -4,6 +4,17 @@ using ll = long long;
 using unll = unsigned long long;
 
 void sol() {
+    int n, res =0;
+    cin >> n;
+    while(n>1) {
+        int i;
+        cin >> i;
+        res = max(res, i);
+        n--;
+    }
+    int x;
+    cin >> x;
+    cout << res + x << endl;
 }
 
 int main() {
