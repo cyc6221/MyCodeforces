@@ -4,6 +4,17 @@ using ll = long long;
 using unll = unsigned long long;
 
 void sol() {
+    int l, r;
+    cin >> l >> r;
+
+    int d = 1, cur = l;
+    int len = 1;
+    while(cur + d <= r) {
+        cur += d;
+        len++;
+        d++;
+    }
+    cout << len << endl;
 }
 
 int main() {

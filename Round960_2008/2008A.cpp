@@ -4,9 +4,40 @@ using ll = long long;
 using unll = unsigned long long;
 
 void sol() {
-    string s1, s2;
-    cin >> s1 >> s2;
-    cout << s1 + s2 << endl;
+    int a, b;
+    cin >> a >> b;
+    /*
+    if(a == 0 && b == 0) {
+        cout << "YES\n";
+        return;
+    }
+    
+    if(a == 0 && b > 0) {
+        if(b % 2 == 1) cout << "NO\n";
+        else cout << "YES\n";
+        return;
+    }
+    if(a > 0 && b == 0) {
+        if(a % 2 == 1) cout << "NO\n";
+        else cout << "YES\n";
+        return;
+    }
+    */
+
+    // a>0 && b>0
+    if(a % 2 == 1) {
+        cout << "NO\n";
+        return;
+    }
+
+    // a % 2 == 0
+    if(b % 2 == 0) {
+        cout << "YES\n";
+        return;
+    }
+
+    if(a > 0) cout << "YES\n";
+    else cout << "NO\n";
 }
 
 int main() {
