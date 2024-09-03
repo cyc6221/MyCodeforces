@@ -4,6 +4,9 @@ using ll = long long;
 using unll = unsigned long long;
 
 void sol() {
+    string s;
+    cin >> s;
+    cout << s;
 }
 
 int main() {
