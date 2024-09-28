@@ -6,7 +6,7 @@ using unll = unsigned long long;
 const int ALPHABET = 26;
 const char MIN_CHAR = 'a';
 
-void sol() {
+void sol() {    
     int n;
     string s;
     cin >> n >> s;
